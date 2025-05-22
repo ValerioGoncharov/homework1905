@@ -2,7 +2,8 @@
 #include <string>
 #include <iostream>
 
-Triangle::Triangle() {
+Triangle::Triangle() 
+{
     name = "Треугольник";
     sides_count = 3;
     a = 10; b = 20; c = 30;
@@ -16,7 +17,8 @@ int Triangle::get_A() { return A; }
 int Triangle::get_B() { return B; }
 int Triangle::get_C() { return C; }
 
-void Triangle::print_info() const {
+void Triangle::print_info() const 
+{
     std::cout << name << ":\n";
     std::cout << "Количество сторон: " << sides_count << "\n";
     std::cout << "Стороны: a=" << a << " b=" << b << " c=" << c << "\n";

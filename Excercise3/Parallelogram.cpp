@@ -1,7 +1,7 @@
 #include "Parallelogram.h"
 
-
-Parallelogram::Parallelogram() {
+Parallelogram::Parallelogram() 
+{
     name = "ֿאנאככוכמדנאלל";
     a = c = 20;
     b = d = 30;

@@ -1,6 +1,6 @@
 #include <iostream>
+#include <cmath>
 #include "Math.h"
-#include <cmath>	
 
 
 double MyMath::sum(double value1, double value2) { return value1 + value2; }
